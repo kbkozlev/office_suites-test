@@ -2,13 +2,22 @@
 
 Microsoft Office has been the established office suite for decades.
 This repository aims to compare other office suites against the online version of MS Office to evaluate how capable of a replacements they are.
+The test files have been downloaded from the internet.
 
 ## Rules
-1. Scoring is done based on 1 - 10, where **1 is no compatibility** and **10 being full compatibility**.
-2. Screenshots of the base document are shown in the table.
-3. Screenshots are always made at 100% scale of the document.
-4. If there are discrepancies additional screenshots are shown and a description is provided.
-5. At the end of each section the total score is provided -> the higher, the better compatibility.
+1. Scoring is done based on 5 - 1, where **5 is full compatibility** and **1 is no compatibility**, **0 means that the file cannot be opened**.
+2. The score cannot go lower than 0.
+3. Points are deducted for 1 type of issue - this means if multiple pictures are misaligned there is still only 1 point deducted as it is one type of issue.
+4. Screenshots of the base document are shown in the table.
+5. Screenshots are always made at 100% scale of the document.
+6. If there are discrepancies additional screenshots are shown and a description is provided.
+7. At the end of each section the total score is provided -> the higher, the better compatibility.
+
+# Point deductions
+
+|            | Small Formatting Issue | Big Formatting Issue | Small Visual Issue | Big Visual Issue | File cannot be opened |
+|------------|------------------------|----------------------|--------------------|------------------|-----------------------|
+| Deductions | 1                      | 2                    | 0.5                | 1                | 5                     |
 
 
 ### Word
@@ -19,8 +28,8 @@ This repository aims to compare other office suites against the online version o
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------|
 | **Main**        | ![1-doc-ms-main.png](Screenshots/1-doc/MS360-main.png)                                                                                               | ![1-doc-of-main.png](Screenshots/1-doc/OnlyOffice-main.png) | ![1-doc-lo-main.png](Screenshots/1-doc/LibreOffice-main.png) | ![1-doc-lo-main.png](Screenshots/1-doc/WPS-main.png) |
 | **Differences** | ![1-doc-ms-diff.png](Screenshots/1-doc/MS360-diff.png)                                                                                               | ![1-doc-of-diff.png](Screenshots/1-doc/OnlyOffice-diff.png) | ![1-doc-lo-main.png](Screenshots/1-doc/LibreOffice-diff.png) | ![1-doc-lo-main.png](Screenshots/1-doc/WPS-diff.png) |
-| **Comments**    | To edit this .doc file MS Office Online had to convert to .docx, in view mode the file looks good, but in editing mode some pictures are misaligned. | No visible discrepancies                                    | No visible discrepancies                                     | No visible discrepancies                             |
-| **Score**       | 8                                                                                                                                                    | 10                                                          | 10                                                           | 10                                                   |
+| **Comments**    | To edit this .doc file MS Office Online had to convert to .docx, in view mode the file looks good, but in editing mode some pictures are misaligned. | No visible discrepancies, but UI is zoomed in.              | No visible discrepancies                                     | No visible discrepancies                             |
+| **Score**       | 4                                                                                                                                                    | 5                                                           | 5                                                            | 5                                                    |
 
 [2.doc](Test%20Files/Word/DOC/2.doc)
 
@@ -28,15 +37,54 @@ This repository aims to compare other office suites against the online version o
 |-----------------|-----------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------|
 | **Main**        | ![MS360-main.png](Screenshots/2-doc/MS360-main.png) | ![OnlyOffice-main.png](Screenshots/2-doc/OnlyOffice-main.png) | ![LibreOffice-main.png](Screenshots/2-doc/LibreOffice-main.png) | ![WPS-main.png](Screenshots/2-doc/WPS-main.png) |
 | **Differences** | -                                                   | -                                                             | -                                                               | -                                               |
-| **Comments**    | No visible discrepancies                            | No visible discrepancies                                      | No visible discrepancies                                        | No visible discrepancies                        |
-| **Score**       | 10                                                  | 10                                                            | 10                                                              | 10                                              |
+| **Comments**    | No visible discrepancies                            | No visible discrepancies, but UI is zoomed in.                | No visible discrepancies                                        | No visible discrepancies                        |
+| **Score**       | 5                                                   | 5                                                             | 5                                                               | 5                                               |
 
 | **File Type Score** | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
 |---------------------|-------------------------------|-----------------|------------------|----------------|
-| **_DOC_**           | 18                            | 20              | 20               | 20             |
+| **_DOC_**           | 9                             | 10              | 10               | 10             |
 
 
 #### File Type: docx
+[1.docx](Test%20Files/Word/DOCX/1.docx)
+
+|                 | **MS Office Online (MS 360)**                                                                                                                                                | **Only Office**                                                                                                                                                                                            | **Libre Office**                                                                                                                                                                                                 | **WPS Office**                                                                                                                                                   |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/1-docx/MS360-main.png)                                                                                                                         | ![OnlyOffice-main.png](Screenshots/1-docx/OnlyOffice-main.png)                                                                                                                                             | ![LibreOffice-main.png](Screenshots/1-docx/LibreOffice-main.png)                                                                                                                                                 | ![WPS-main.png](Screenshots/1-docx/WPS-main.png)                                                                                                                 |
+| **Differences** | ![MS360-diff1.png](Screenshots/1-docx/MS360-diff1.png)<br/>![MS360-diff2.png](Screenshots/1-docx/MS360-diff2.png)<br/>![MS360-diff3.png](Screenshots/1-docx/MS360-diff3.png) | ![OnlyOffice-diff1.png](Screenshots/1-docx/OnlyOffice-diff1.png)<br/>![OnlyOffice-diff2.png](Screenshots/1-docx/OnlyOffice-diff2.png)<br/>![OnlyOffice-diff3.png](Screenshots/1-docx/OnlyOffice-diff3.png) | ![LibreOffice-diff1.png](Screenshots/1-docx/LibreOffice-diff1.png)<br/>![LibreOffice-diff2.png](Screenshots/1-docx/LibreOffice-diff2.png)<br/>![LibreOffice-diff3.png](Screenshots/1-docx/LibreOffice-diff3.png) | ![WPS-diff1.png](Screenshots/1-docx/WPS-diff1.png)<br/>![WPS-diff2.png](Screenshots/1-docx/WPS-diff2.png)<br/>![WPS-diff3.png](Screenshots/1-docx/WPS-diff3.png) |
+| **Comments**    | The file had to be converted in order to be edited. In edit mode some pictures are misaligned. Also table is not showing correctly.                                          | Table is not showing correctly, although the rest of the layout is correct. UI is zoomed in.                                                                                                               | The formatting is correct, but there is a weird gray color behind the capital letter, the table is not showing correctly.                                                                                        | It is the only office suite that displayed the document "wide", although all screenshots are made on the same equipment. Full compatability.                     |
+| **Score**       | 3.5                                                                                                                                                                          | 4.5                                                                                                                                                                                                        | 4                                                                                                                                                                                                                | 5                                                                                                                                                                |
+
+[2.docx](Test%20Files/Word/DOCX/2.docx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[3.docx](Test%20Files/Word/DOCX/3.docx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[4.docx](Test%20Files/Word/DOCX/4.docx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+| **File Type Score** | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|---------------------|-------------------------------|-----------------|------------------|----------------|
+| **_DOCX_**          |                               |                 |                  |                |
 
 ### Excel
 
