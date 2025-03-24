@@ -57,12 +57,12 @@ The test files have been downloaded from the internet.
 
 [2.docx](Test%20Files/Word/DOCX/2.docx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                                                                                     | **Only Office**                                                      | **Libre Office**                                                       | **WPS Office**                                                                                                 |
+|-----------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/2-docx/MS360-main.png)                                                              | ![OnlyOffice-main.png](Screenshots/2-docx/OnlyOffice-main.png)       | ![LibreOffice-main.png](Screenshots/2-docx/LibreOffice-main.png)       | ![WPS-main.png](Screenshots/2-docx/WPS-main.png)                                                               |
+| **Differences** | ![MS360-diff1.png](Screenshots/2-docx/MS360-diff1.png)<br/>![MS360-diff2.png](Screenshots/2-docx/MS360-diff2.png) | ![OnlyOffice-diff1-2.png](Screenshots/2-docx/OnlyOffice-diff1-2.png) | ![LibreOffice-diff1-2.png](Screenshots/2-docx/LibreOffice-diff1-2.png) | ![WPS-diff1-2.png](Screenshots/2-docx/WPS-diff1-2.png)                                                         |
+| **Comments**    | Big formatting issue - pictures totally misaligned.                                                               | Formatting looks good, but footer is missing                         | No visible discrepancies                                               | Formatting mostly ok, but even though the font is correct it looks very slim and more space between the lines. |
+| **Score**       | 3                                                                                                                 | 4                                                                    | 5                                                                      | 4                                                                                                              |
 
 [3.docx](Test%20Files/Word/DOCX/3.docx)
 
