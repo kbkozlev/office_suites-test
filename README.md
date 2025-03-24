@@ -92,5 +92,72 @@ The test files have been downloaded from the internet.
 | **DOC** + **_DOCX_** | 24                            | 27.5            | 27               | 28             |
 
 ### Excel
+#### File Type: xls
+[1.xls](Test%20Files/Excel/XLS/1.xls)
+
+|                 | **MS Office Online (MS 360)**                   | **Only Office**                                               | **Libre Office**                                                | **WPS Office**                                  |
+|-----------------|-------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------|
+| **Main**        | ![WPS-main.png](Screenshots/1-xls/WPS-main.png) | ![OnlyOffice-main.png](Screenshots/1-xls/OnlyOffice-main.png) | ![LibreOffice-main.png](Screenshots/1-xls/LibreOffice-main.png) | ![WPS-main.png](Screenshots/1-xls/WPS-main.png) |
+| **Differences** | Visible in main picture                         | Visible in main picture                                       | Visible in main picture                                         | Visible in main picture                         |
+| **Comments**    | No visible discrepancies                        | Missing columns (dates)                                       | No visible discrepancies                                        | No visible discrepancies                        |
+| **Score**       | 5                                               | 3                                                             | 5                                                               | 5                                               |
+
+| **File Type Score** | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|---------------------|-------------------------------|-----------------|------------------|----------------|
+| **_XLS_**           | 5                             | 3               | 5                | 5              |
+
+#### File Type: xls
+[1.xlsx](Test%20Files/Excel/XLSX/1.xlsx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[2.xlsx](Test%20Files/Excel/XLSX/2.xlsx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[3.xlsx](Test%20Files/Excel/XLSX/3.xlsx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[4.xlsx](Test%20Files/Excel/XLSX/4.xlsx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+[5.xlsx](Test%20Files/Excel/XLSX/5.xlsx)
+
+|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|-----------------|-------------------------------|-----------------|------------------|----------------|
+| **Main**        |                               |                 |                  |                |
+| **Differences** |                               |                 |                  |                |
+| **Comments**    |                               |                 |                  |                |
+| **Score**       |                               |                 |                  |                |
+
+| **File Type Score** | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|---------------------|-------------------------------|-----------------|------------------|----------------|
+| **_XLSX_**          |                               |                 |                  |                |
+
+| **Total Score**      | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
+|----------------------|-------------------------------|-----------------|------------------|----------------|
+| **XLS** + **_XLSX_** |                               |                 |                  |                |
 
 ### Powerpoint
