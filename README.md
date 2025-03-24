@@ -109,12 +109,12 @@ The test files have been downloaded from the internet.
 #### File Type: xls
 [1.xlsx](Test%20Files/Excel/XLSX/1.xlsx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                          | **Only Office**                                                  | **Libre Office**                                                   | **WPS Office**                                                |
+|-----------------|--------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/1-xlsx/MS360-main.png)   | ![OnlyOffice-main.png](Screenshots/1-xlsx/OnlyOffice-main.png)   | ![LibreOffice-main.png](Screenshots/1-xlsx/LibreOffice-main.png)   | ![WPS-main.png](Screenshots/1-xlsx/WPS-main.png)              |
+| **Differences** | ![MS360-diff1.png](Screenshots/1-xlsx/MS360-diff1.png) | ![OnlyOffice-diff1.png](Screenshots/1-xlsx/OnlyOffice-diff1.png) | ![LibreOffice-diff1.png](Screenshots/1-xlsx/LibreOffice-diff1.png) | ![WPS-diff1.png](Screenshots/1-xlsx/WPS-diff1.png)            |
+| **Comments**    | No visible discrepancies                               | Missing reference                                                | Missing reference                                                  | Missing reference + field not fully visible without expansion |
+| **Score**       | 5                                                      | 4                                                                | 4                                                                  | 3.5                                                           |
 
 [2.xlsx](Test%20Files/Excel/XLSX/2.xlsx)
 
