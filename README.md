@@ -66,12 +66,12 @@ The test files have been downloaded from the internet.
 
 [3.docx](Test%20Files/Word/DOCX/3.docx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                          | **Only Office**                                                   | **Libre Office**                                                   | **WPS Office**                                             |
+|-----------------|--------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| **Main**        | ![WPS-main.png](Screenshots/3-docx/WPS-main.png)       | ![OnlyOffice-main.png](Screenshots/3-docx/OnlyOffice-main.png)    | ![LibreOffice-main.png](Screenshots/3-docx/LibreOffice-main.png)   | ![WPS-main.png](Screenshots/3-docx/WPS-main.png)           |
+| **Differences** | ![MS360-diff1.png](Screenshots/3-docx/MS360-diff1.png) | ![LibreOffice-diff1.png](Screenshots/3-docx/OnlyOffice-diff1.png) | ![LibreOffice-diff1.png](Screenshots/3-docx/LibreOffice-diff1.png) | ![LibreOffice-diff1.png](Screenshots/3-docx/WPS-diff1.png) |
+| **Comments**    | No discrepancies                                       | Split onto second line                                            | Split onto second line                                             | Larger spacing between the lines                           |
+| **Score**       | 5                                                      | 4.5                                                               | 4.5                                                                | 4.5                                                        |
 
 [4.docx](Test%20Files/Word/DOCX/4.docx)
 
