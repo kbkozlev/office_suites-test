@@ -127,12 +127,12 @@ The test files have been downloaded from the internet.
 
 [3.xlsx](Test%20Files/Excel/XLSX/3.xlsx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                        | **Only Office**                                                | **Libre Office**                                                 | **WPS Office**                                   |
+|-----------------|------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/3-xlsx/MS360-main.png) | ![OnlyOffice-main.png](Screenshots/3-xlsx/OnlyOffice-main.png) | ![LibreOffice-main.png](Screenshots/3-xlsx/LibreOffice-main.png) | ![WPS-main.png](Screenshots/3-xlsx/WPS-main.png) |
+| **Differences** | Visible in main                                      | Visible in main                                                | Visible in main                                                  | Visible in main                                  |
+| **Comments**    | No visible discrepancies                             | Formatting is there, but the chart is very dense               | Market cap missing + Dates under chart                           | Missing reference                                |
+| **Score**       | 5                                                    | 4.5                                                            | 3                                                                | 4                                                |
 
 [4.xlsx](Test%20Files/Excel/XLSX/4.xlsx)
 
