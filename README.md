@@ -106,7 +106,7 @@ The test files have been downloaded from the internet.
 |---------------------|-------------------------------|-----------------|------------------|----------------|
 | **_XLS_**           | 5                             | 3               | 5                | 5              |
 
-#### File Type: xls
+#### File Type: xlsx
 [1.xlsx](Test%20Files/Excel/XLSX/1.xlsx)
 
 |                 | **MS Office Online (MS 360)**                          | **Only Office**                                                  | **Libre Office**                                                   | **WPS Office**                                                |
@@ -118,12 +118,12 @@ The test files have been downloaded from the internet.
 
 [2.xlsx](Test%20Files/Excel/XLSX/2.xlsx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                                                                                    | **Only Office**                                                                                                                      | **Libre Office**                                                                                                                         | **WPS Office**                                                                                           |
+|-----------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/2-xlsx/MS360-main.png)                                                             | ![OnlyOffice-main.png](Screenshots/2-xlsx/OnlyOffice-main.png)                                                                       | ![LibreOffice-main.png](Screenshots/2-xlsx/LibreOffice-main.png)                                                                         | ![WPS-main.png](Screenshots/2-xlsx/WPS-main.png)                                                         |
+| **Differences** | ![MS360-diff1.png](Screenshots/2-xlsx/MS360-diff1.png)<br>![MS360-diff2.png](Screenshots/2-xlsx/MS360-diff2.png) | ![OnlyOffice-diff1.png](Screenshots/2-xlsx/OnlyOffice-diff1.png)<br>![OnlyOffice-diff2.png](Screenshots/2-xlsx/OnlyOffice-diff2.png) | ![LibreOffice-diff1.png](Screenshots/2-xlsx/LibreOffice-diff1.png)<br>![LibreOffice-diff2.png](Screenshots/2-xlsx/LibreOffice-diff2.png) | ![WPS-diff1.png](Screenshots/2-xlsx/WPS-diff1.png)<br>![WPS-diff2.png](Screenshots/2-xlsx/WPS-diff2.png) |
+| **Comments**    | No visible discrepancies                                                                                         | No visible discrepancies                                                                                                             | No visible discrepancies                                                                                                                 | Missing references                                                                                       |
+| **Score**       | 5                                                                                                                | 5                                                                                                                                    | 5                                                                                                                                        | 4                                                                                                        |
 
 [3.xlsx](Test%20Files/Excel/XLSX/3.xlsx)
 
