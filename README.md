@@ -109,12 +109,12 @@ The test files have been downloaded from the internet.
 #### File Type: xlsx
 [1.xlsx](Test%20Files/Excel/XLSX/1.xlsx)
 
-|                 | **MS Office Online (MS 360)**                          | **Only Office**                                                  | **Libre Office**                                                   | **WPS Office**                                                |
-|-----------------|--------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
-| **Main**        | ![MS360-main.png](Screenshots/1-xlsx/MS360-main.png)   | ![OnlyOffice-main.png](Screenshots/1-xlsx/OnlyOffice-main.png)   | ![LibreOffice-main.png](Screenshots/1-xlsx/LibreOffice-main.png)   | ![WPS-main.png](Screenshots/1-xlsx/WPS-main.png)              |
-| **Differences** | ![MS360-diff1.png](Screenshots/1-xlsx/MS360-diff1.png) | ![OnlyOffice-diff1.png](Screenshots/1-xlsx/OnlyOffice-diff1.png) | ![LibreOffice-diff1.png](Screenshots/1-xlsx/LibreOffice-diff1.png) | ![WPS-diff1.png](Screenshots/1-xlsx/WPS-diff1.png)            |
-| **Comments**    | No visible discrepancies                               | Missing reference                                                | Missing reference                                                  | Missing reference + field not fully visible without expansion |
-| **Score**       | 5                                                      | 4                                                                | 4                                                                  | 3.5                                                           |
+|                 | **MS Office Online (MS 360)**                          | **Only Office**                                                  | **Libre Office**                                                   | **WPS Office**                                     |
+|-----------------|--------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------|
+| **Main**        | ![MS360-main.png](Screenshots/1-xlsx/MS360-main.png)   | ![OnlyOffice-main.png](Screenshots/1-xlsx/OnlyOffice-main.png)   | ![LibreOffice-main.png](Screenshots/1-xlsx/LibreOffice-main.png)   | ![WPS-main.png](Screenshots/1-xlsx/WPS-main.png)   |
+| **Differences** | ![MS360-diff1.png](Screenshots/1-xlsx/MS360-diff1.png) | ![OnlyOffice-diff1.png](Screenshots/1-xlsx/OnlyOffice-diff1.png) | ![LibreOffice-diff1.png](Screenshots/1-xlsx/LibreOffice-diff1.png) | ![WPS-diff1.png](Screenshots/1-xlsx/WPS-diff1.png) |
+| **Comments**    | No visible discrepancies                               | Missing reference                                                | Missing reference                                                  | Fields not fully visible without expansion         |
+| **Score**       | 5                                                      | 4                                                                | 4                                                                  | 5                                                  |
 
 [2.xlsx](Test%20Files/Excel/XLSX/2.xlsx)
 
@@ -122,8 +122,8 @@ The test files have been downloaded from the internet.
 |-----------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **Main**        | ![MS360-main.png](Screenshots/2-xlsx/MS360-main.png)                                                             | ![OnlyOffice-main.png](Screenshots/2-xlsx/OnlyOffice-main.png)                                                                       | ![LibreOffice-main.png](Screenshots/2-xlsx/LibreOffice-main.png)                                                                         | ![WPS-main.png](Screenshots/2-xlsx/WPS-main.png)                                                         |
 | **Differences** | ![MS360-diff1.png](Screenshots/2-xlsx/MS360-diff1.png)<br>![MS360-diff2.png](Screenshots/2-xlsx/MS360-diff2.png) | ![OnlyOffice-diff1.png](Screenshots/2-xlsx/OnlyOffice-diff1.png)<br>![OnlyOffice-diff2.png](Screenshots/2-xlsx/OnlyOffice-diff2.png) | ![LibreOffice-diff1.png](Screenshots/2-xlsx/LibreOffice-diff1.png)<br>![LibreOffice-diff2.png](Screenshots/2-xlsx/LibreOffice-diff2.png) | ![WPS-diff1.png](Screenshots/2-xlsx/WPS-diff1.png)<br>![WPS-diff2.png](Screenshots/2-xlsx/WPS-diff2.png) |
-| **Comments**    | No visible discrepancies                                                                                         | No visible discrepancies                                                                                                             | No visible discrepancies                                                                                                                 | Missing references                                                                                       |
-| **Score**       | 5                                                                                                                | 5                                                                                                                                    | 5                                                                                                                                        | 4                                                                                                        |
+| **Comments**    | No visible discrepancies                                                                                         | No visible discrepancies                                                                                                             | No visible discrepancies                                                                                                                 | Fields not fully visible without expansion                                                               |
+| **Score**       | 5                                                                                                                | 5                                                                                                                                    | 5                                                                                                                                        | 5                                                                                                        |
 
 [3.xlsx](Test%20Files/Excel/XLSX/3.xlsx)
 
@@ -131,33 +131,26 @@ The test files have been downloaded from the internet.
 |-----------------|------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------|
 | **Main**        | ![MS360-main.png](Screenshots/3-xlsx/MS360-main.png) | ![OnlyOffice-main.png](Screenshots/3-xlsx/OnlyOffice-main.png) | ![LibreOffice-main.png](Screenshots/3-xlsx/LibreOffice-main.png) | ![WPS-main.png](Screenshots/3-xlsx/WPS-main.png) |
 | **Differences** | Visible in main                                      | Visible in main                                                | Visible in main                                                  | Visible in main                                  |
-| **Comments**    | No visible discrepancies                             | Formatting is there, but the chart is very dense               | Market cap missing + Dates under chart                           | Missing reference                                |
-| **Score**       | 5                                                    | 4.5                                                            | 3                                                                | 4                                                |
+| **Comments**    | No visible discrepancies                             | Formatting is there, but the chart is very dense               | Market cap missing + Dates under chart                           | Fields not fully visible without expansion       |
+| **Score**       | 5                                                    | 4.5                                                            | 3                                                                | 5                                                |
 
 [4.xlsx](Test%20Files/Excel/XLSX/4.xlsx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
+|                 | **MS Office Online (MS 360)**                    | **Only Office**                                                | **Libre Office**                                                 | **WPS Office**                                   |
+|-----------------|--------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------|
+| **Main**        | ![WPS-main.png](Screenshots/1-xlsx/WPS-main.png) | ![OnlyOffice-main.png](Screenshots/1-xlsx/OnlyOffice-main.png) | ![LibreOffice-main.png](Screenshots/1-xlsx/LibreOffice-main.png) | ![WPS-main.png](Screenshots/1-xlsx/WPS-main.png) |
+| **Differences** | Visible in main picture                          | Visible in main picture                                        | Visible in main picture                                          | Visible in main picture                          |
+| **Comments**    | No visible discrepancies                         | Missing columns (dates)                                        | No visible discrepancies                                         | No visible discrepancies                         |
+| **Score**       | 5                                                | 3                                                              | 5                                                                | 5                                                |
 
-[5.xlsx](Test%20Files/Excel/XLSX/5.xlsx)
 
-|                 | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
-|-----------------|-------------------------------|-----------------|------------------|----------------|
-| **Main**        |                               |                 |                  |                |
-| **Differences** |                               |                 |                  |                |
-| **Comments**    |                               |                 |                  |                |
-| **Score**       |                               |                 |                  |                |
 
 | **File Type Score** | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
 |---------------------|-------------------------------|-----------------|------------------|----------------|
-| **_XLSX_**          |                               |                 |                  |                |
+| **_XLSX_**          | 20                            | 16.5            | 17               | 20             |
 
 | **Total Score**      | **MS Office Online (MS 360)** | **Only Office** | **Libre Office** | **WPS Office** |
 |----------------------|-------------------------------|-----------------|------------------|----------------|
-| **XLS** + **_XLSX_** |                               |                 |                  |                |
+| **XLS** + **_XLSX_** | 25                            | 19.5            | 22               | 25             |
 
 ### Powerpoint
